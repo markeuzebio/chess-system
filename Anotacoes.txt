@@ -1,0 +1,8 @@
+	Serão as anotações gerais que considero 		importante sobre o sistema de xadrez criado
+
+
+
+
+	Depois de ter feito uma mudança significativa, vale apena dar commit (atualizar/ criar uma nova versão) do projeto, com aquele comando [git commit -m "Mensagem"] e mandá-lo para o GitHub (ou qualquer outra plataforma de armazenamento de repositórios) com o comando [git push] (caso esteja fazendo isso pela primeira vez, o comando é [git push -u "elias" master]).
+
+	Sempre se atente ao repositório local e remoto; caso você queira, por exemplo, excluir dois commits anteriores no github, seria necessário a gente usar o método [git push -f origin HEAD^:master] para excluir o ultimo commit, e, após isso, excluir este mesmo commit no repositório local pelo comando [git reset --soft/hard HEAD~1]. E para excluir o commit anterior a este, faríamos o mesmo processo. Obviamente se quiséssemos manter o penúltimo commit em nossa máquina, bastaria excluí-lo apenas no GitHub, caso contrário, excluiríamos tanto no repositório local, quanto no remoto.
